@@ -1,0 +1,40 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.lable {
+	-fx-font-weight:bold;
+    -fx-font-size: 40px;
+    -fx-font-family: "kaiti";
+    -fx-text-fill: #8B8989 ;
+
+
+}
+
+.image {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#font {
+	-fx-font-weight:bold;
+    -fx-font-size: 25px;
+    -fx-font-family: "fangsong";
+    -fx-fill: #000000;
+-fx-background-radius:5px;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-background-padding: 10px;
+    -fx-text-fill: white;
+    -fx-font-family: "幼圆";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #CCFFCC);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(#CCFFCC, #61a2b1);
+    -fx-font-family: "幼圆";
+}
